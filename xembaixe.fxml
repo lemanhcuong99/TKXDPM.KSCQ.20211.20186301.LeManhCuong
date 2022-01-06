@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="552.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.">
+   <children>
+      <TableView fx:id="table" layoutX="21.0" layoutY="23.0" prefHeight="470.0" prefWidth="519.0">
+        <columns>
+          <TableColumn fx:id="dockNameColumn" prefWidth="75.0" text="dockName" />
+          <TableColumn fx:id="locationColumn" prefWidth="154.0" text="location" />
+            <TableColumn fx:id="areaColumn" prefWidth="161.0" text="area" />
+            <TableColumn fx:id="numberOfBikeColumn" minWidth="0.0" prefWidth="128.0" text="numberOfBike" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
